@@ -1,0 +1,91 @@
+@charset "UTF-8";
+html,
+body
+{
+    font-size:18px;
+    height:100%;
+    margin:10;
+    padding:10;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#FFFFFF;
+}
+#container
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    position: relative;
+    margin-top: 30px;
+}
+#name
+{
+   font-size:50px;
+   color: #03045e;
+   text-align: center;
+}
+#foto
+{
+    display: block;
+    height: 350px;
+}
+nav
+{
+    border: 2px solid ;
+    position: relative;
+}
+nav ul
+{
+    margin:0px;
+    background-color: rgb(220, 242, 255);
+}
+
+nav ul li 
+{
+    display: table-cell;
+    padding:20px;
+    
+}
+nav ul li a:hover
+{
+    color: black;
+    background: rgb(70, 179, 241);
+}
+h2, h3, h4, h5
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+p
+{
+    text-align: justify;
+}
+#mass
+{
+    margin: 20px;;
+}
+footer h4,
+footer h5          
+{
+    text-decoration:none;
+}
+#contact_form
+{
+    margin:40px;
+}
+fieldset
+{
+    background-color: rgb(220, 242, 255);
+}
+#foto
+{
+    width: 100%;
+}
+#micro
+{
+    display: none;
+}
